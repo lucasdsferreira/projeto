@@ -17,6 +17,7 @@ body {
     background-color: white;
     font-family: var(--fonte-padrao);
     margin: auto;
+    
 }
 
 header {
@@ -25,6 +26,9 @@ header {
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
+    min-width: 320px;
+    max-width: 450px;
+    margin: auto;
 }
 
 div > h1 {
@@ -34,39 +38,48 @@ div > h1 {
     font-weight: bolder;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+    margin: auto;
 }
 
 div > img {
-    margin-left: 550px;
+    margin: auto;
 }
 
 .container {
     display: flex;
     align-items: center;
     text-align: center;
+    margin: auto;
 }
 
 header > p {
-    text-align: justify;
+    text-align: center;
     font-family: var(--fonte-padrao);
     font-size: 1.4em;
     font-weight: normal;
     color: black;
-    max-width: 600px;
+    min-width: 320px;
+    max-width: 450px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.150);
 }
+
+section {
+    display: block;
+}
+
 section > p {
     text-align: center;
     background-color: #43c88d;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    margin-right: 600px;
-    margin-left: 600px;
+    margin: 10px auto;
+    max-width: 450px;
 }
 
 p > a {
