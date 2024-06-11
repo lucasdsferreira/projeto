@@ -13,6 +13,7 @@
 }
 
 body {
+    color: black;
     background-color: white;
     font-family: var(--fonte-padrao);
     margin: auto;
@@ -25,15 +26,25 @@ header {
     padding-bottom: 10px;
 }
 
-header > h1 {
+div > h1 {
     color: black;
     font-family: var(--fonte-padrao);
     font-size: 3em;
-    font-weight: bolder;
+    font-weight: normal;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+}
+
+div > img {
+    margin-left: 530px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .passo1 {
@@ -74,4 +85,8 @@ header > h1 {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 30px auto;
     max-width: 450px;
+}
+
+hr {
+    margin-right: 420px;
 }
