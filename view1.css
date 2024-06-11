@@ -72,22 +72,43 @@ section {
     display: block;
 }
 
-section > p {
+nav {
     text-align: center;
     background-color: #43c88d;
-    padding: 10px;
+    padding: 11px 0px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 30px auto;
     max-width: 450px;
 }
 
-p > a {
+.sobre {
     text-decoration: none;
     font-family: var(--fonte-padrao);
     color: black;
+    border-radius: 10px;
+    padding: 12px 203px;
+    transition-duration: .5s;
 }
 
-p > a:hover {
-    text-decoration: underline;
+.aprenda {
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    color: black;
+    border-radius: 10px;
+    padding: 12px 162.5px;
+    transition-duration: .5s;
+}
+
+.licenca {
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    color: black;
+    border-radius: 10px;
+    padding: 12px 144.5px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: #5bffb5;
 }

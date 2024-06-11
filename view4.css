@@ -38,7 +38,7 @@ div > h1 {
 }
 
 div > img {
-    margin-left: 530px;
+    margin-left: 537px;
 }
 
 .container {
@@ -55,6 +55,7 @@ div > img {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 30px auto;
     max-width: 450px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 .passo2 {
@@ -65,6 +66,7 @@ div > img {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 30px auto;
     max-width: 450px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 .passo3 {
@@ -75,6 +77,7 @@ div > img {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 30px auto;
     max-width: 450px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 .passo4 {
@@ -85,6 +88,7 @@ div > img {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 30px auto;
     max-width: 450px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 hr {
