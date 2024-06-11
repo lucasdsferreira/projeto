@@ -72,8 +72,8 @@ section > p {
     padding: 10px;
     margin-right: 300px;
     margin-left: 300px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 ul {
@@ -81,7 +81,9 @@ ul {
     text-align: start;
     text-align: justify;
     font-family: var(--fonte-padrao);
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     margin-right: 300px;
     margin-left: 300px;
     margin-top: 5px;

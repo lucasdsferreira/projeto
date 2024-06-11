@@ -25,7 +25,7 @@ header {
     padding-bottom: 10px;
 }
 
-header > h1 {
+div > h1 {
     color: black;
     font-family: var(--fonte-padrao);
     font-size: 3em;
@@ -36,33 +36,53 @@ header > h1 {
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
+div > img {
+    margin-left: 495px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 .mensal {
     text-align: center;
     background-color: #43c88d;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    margin: 30px auto;
+    margin: 30px;
     max-width: 450px;
 }
 
 .anual {
     text-align: center;
     background-color: #43c88d;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    margin: 30px auto;
+    margin: 30px;
     max-width: 450px;
 }
 
 .licenca_mensal {
     color: black;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2em;
     font-family: var(--fonte-padrao);
-    font-weight: bold;
+    font-weight: normal;
     padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.preco_mensal {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -70,20 +90,44 @@ header > h1 {
 .licenca_anual {
     color: black;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2em;
     font-family: var(--fonte-padrao);
-    font-weight: bold;
-    padding: 50px;
+    font-weight: normal;
+    padding: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin: 10px;
+}
+
+.preco_anual {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .botoes {
     background-color: white;
+    font-size: 1.5em;
     font-family: var(--fonte-padrao);
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 30px;
+}
+
+hr {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 1px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
 }
