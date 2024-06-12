@@ -29,7 +29,7 @@ header {
     margin: auto;
 }
 
-div > a {
+div > h1 {
     color: black;
     font-family: var(--fonte-padrao);
     font-size: 3em;
