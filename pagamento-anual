@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="view5.css">
+    <title>Eco Produtos</title>
+</head>
+<body>
+    <section class="pagamento">
+        <div class="descricao-pagamento">
+            <h2>Plano Mensal</h2>
+            <h3>Acesso por 1 ano a todas as Ferramentas do Controle de Estoque, produzidos pela Eco Produtos.</h3>
+            <h2>R$ 500,00</h2>
+        </div>
+        <div class="form-pagamento">
+            <form method="post">
+                <div class="form-100">
+                    <img src="imagens/pix.svg" alt="pix" id="pix" height="50px">
+                    <img src="imagens/qr-code.png" alt="qr code" height="130px">
+                    <input type="submit" value="Copiar">
+                </div>
+                <div class="ou">
+                    <label>Ou pagar com o cartão</label>
+                </div>
+                <div class="form-100">
+                    <label>Confirmar Email:</label>
+                    <input type="text">
+                </div>
+                <div class="form-100">
+                    <div class="cartoes">
+                        <img src="imagens/visa.svg" alt="pix" id="pix" height="55px">
+                        <img src="imagens/mastercard.svg" alt="pix" id="pix" height="55px">
+                    </div>
+                    <label>Dados do Cartão</label>
+                    <input type="text" placeholder="1234 1234 1234 1234">
+                    <div class="form-50">
+                        <input style="margin-top: -1px;" type="text" placeholder="MM/AA">
+                        <input style="margin-left: -1px;margin-top: -1px;" type="text" placeholder="CVC">
+                    </div>
+                </div>
+                <div class="form-100">
+                    <input type="text" placeholder="Nome no cartão">
+                </div>
+                <div class="form-100">
+                    <input type="submit" name="acao" value="Pagar">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
