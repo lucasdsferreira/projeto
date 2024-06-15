@@ -51,40 +51,7 @@ div > img {
     margin: auto;
 }
 
-.passo1 {
-    text-align: center;
-    background-color: #43c88d;
-    padding: 30px;
-    border-radius: 2px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    margin: 30px auto;
-    max-width: 450px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
-}
-
-.passo2 {
-    text-align: center;
-    background-color: #43c88d;
-    padding: 30px;
-    border-radius: 2px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    margin: 30px auto;
-    max-width: 450px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
-}
-
-.passo3 {
-    text-align: center;
-    background-color: #43c88d;
-    padding: 30px;
-    border-radius: 2px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    margin: 30px auto;
-    max-width: 450px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
-}
-
-.passo4 {
+.passo {
     text-align: center;
     background-color: #43c88d;
     padding: 30px;
@@ -97,4 +64,11 @@ div > img {
 
 hr {
     margin-right: 420px;
+}
+
+@media screen and (max-width: 450px) {
+    .passo {
+        width: 250px;
+        margin-bottom: 40px;
+    }
 }
