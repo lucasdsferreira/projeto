@@ -29,7 +29,7 @@ header {
     font-family: var(--fonte-padrao);
     min-height: 120px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 42px;
     min-width: 320px;
     max-width: 450px;
     margin: auto;
@@ -44,6 +44,17 @@ a {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     margin: auto;
     text-decoration: none;
+}
+
+img {
+    margin: auto;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 
 p {
