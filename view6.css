@@ -1,0 +1,124 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+:root {
+    --fonte-padrao: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+section.pagamento {
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-around;
+    padding: 0 2%;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.descricao-pagamento {
+    width: 40%;
+}
+
+.descricao-pagamento h3 {
+    color: rgb(140, 140, 140);
+}
+
+.descricao-pagamento h2 {
+    color: black;
+    font-size: 50px;
+}
+
+.form-pagamento {
+    box-shadow: -8px 5px 15px 5px #C7C7C7;
+    padding: 30px 30px 50px 30px;
+    width: 50%;
+}
+
+.form-pagamento form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-100 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-50 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ou {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-pagamento label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-pagamento input[type=text] {
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.form-pagamento input[type=submit] {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: #43c88d;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#pix {
+    display: flex;
+    margin: initial;
+    border: transparent;
+}
+
+.cartoes {
+    display: flex;
+    border: transparent;
+}
+
+img {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    .descricao-pagamento,
+    .form-pagamento{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
