@@ -29,13 +29,12 @@ header {
     font-family: var(--fonte-padrao);
     min-height: 10px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 33px;
 }
 
 a {
     color: black;
     font-family: var(--fonte-padrao);
-    font-size: 2.5em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     text-decoration: none;
