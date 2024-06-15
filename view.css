@@ -1,53 +1,65 @@
 @charset "UTF-8";
 
 /* FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
-    font-family: Open Sans, sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+    font-family: "Poppins";
+    src: url("font/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
 }
 
-@font-face {
-    font-family: "Roboto", sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --fonte-padrao: "Poppins", sans-serif;
 }
 
 /* RESETS DO HTML */
-* {
-    box-sizing: border-box;
-}
+
 
 /* GERAL */
 body {
-    background-color: rgb(53, 109, 53);
-    font-family: "Roboto", sans-serif;
+    background-color: white;
+    font-family: var(--fonte-padrao);
+}
+
+/* PROGRAMA */
+
+header {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    min-height: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+a {
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-size: 2.5em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+    text-decoration: none;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+p {
+    display: block;
+    padding: 30px 30px 0px 30px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 .texto-centro {
     text-align: center;
 }
 
-/* PROGRAMA */
-h1 {
-    color: white;
-    font-weight: bolder;
-    font-size: 18pt;
-    font-family: "Roboto", sans-serif;
-    display: block;
-    padding-top: 40px;
-}
-
-p {
-    display: block;
-    padding: 30px 30px 0px 30px;
-}
-
 .entrada-dados {
     display: block;
-    background-color: #EBEBEB;
+    background-color: #43c88d;
     border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 15px 15px 2px 15px;
     padding-bottom: 20px;
 }
@@ -58,31 +70,35 @@ p {
     padding: 6px;
     border-radius: 6px;
     border: transparent;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
+    text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.268);
 }
 
 /* BOTOES */
 .botoes {
-    background-color: black;
+    background-color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    color: white;
+    color: black;
     border-radius: 6px;
     border: transparent;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
     padding: 12px;
     margin-top: 14px;
+    cursor: pointer;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 .botoes-tabela {
-    background-color: black;
+    background-color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    color: white;
+    color: black;
     border-radius: 6px;
     border: transparent;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
     padding: 5px 10px 5px 10px;
+    cursor: pointer;
 }
 
 /* RODAPE */
@@ -109,7 +125,9 @@ p {
     background-color: #EBEBEB;
     font-size: 12px;
     border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     padding: 15px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 
 .saida-dados th {
@@ -126,11 +144,11 @@ p {
 /* LAYOUT */
 .container {
     max-width: 600px;
-    margin: 6px auto;
+    margin: 70px auto;
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 630px) {
+@media (max-width: 412px) {
 
     .entrada-dados {
         margin-right: 15px;

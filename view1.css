@@ -111,10 +111,3 @@ nav {
 nav > a:hover {
     background-color: #5bffb5;
 }
-
-picture > img {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    margin: auto;
-}
