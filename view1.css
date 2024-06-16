@@ -108,7 +108,7 @@ nav {
     font-family: var(--fonte-padrao);
     color: black;
     border-radius: 10px;
-    padding: 12px 152px;
+    padding: 12px 144px;
     transition-duration: .5s;
 }
 
@@ -150,11 +150,7 @@ nav > a:hover {
     }
 
     a.controle {
-        padding: 12px 108.5px;
-    }
-
-    a.lista {
-        padding: 12px 106px;
+        padding: 12px 98.5px;
     }
 
     .aprenda,

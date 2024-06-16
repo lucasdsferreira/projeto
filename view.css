@@ -166,4 +166,18 @@ p {
         margin-right: 15px;
         margin-left: 15px;
     }
+
+    .saida-dados.container {
+        max-width: 600px;
+        font-size: 9px;
+
+    }
+
+    #qnt {
+        word-break: break-all;
+    }
+
+    #val {
+        padding: 0px 5px;
+    }
 }
