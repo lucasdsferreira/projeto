@@ -100,10 +100,10 @@ p {
 }
 
 .botoes-tabela {
-    background-color: white;
+    background-color: black;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    color: black;
+    color: white;
     border-radius: 6px;
     border: transparent;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
@@ -149,6 +149,8 @@ p {
 .saida-dados td {
     padding: 6px 0px 6px 0px;
     border-bottom: solid 0.5px #0000001f;
+    background-color: white;
+    border-radius: 2px;
 }
 
 /* LAYOUT */
