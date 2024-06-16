@@ -51,13 +51,12 @@ div > img {
     margin: auto;
 }
 
-header > p {
+section > p {
     text-align: center;
     font-family: var(--fonte-padrao);
     font-size: 1.4em;
     font-weight: normal;
     color: black;
-    min-width: 320px;
     max-width: 450px;
     padding-right: 10px;
     padding-left: 10px;
@@ -65,10 +64,6 @@ header > p {
     padding-top: 30px;
     padding-bottom: 30px;
     text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.150);
-}
-
-section {
-    display: block;
 }
 
 nav {
@@ -110,4 +105,26 @@ nav {
 
 nav > a:hover {
     background-color: #5bffb5;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 450px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin: auto;
+    }
+
+    p {
+        width: 420px;
+        margin: auto;
+    }
+
+    h1 {
+        width: 420px;
+    }
+
+    main {
+        max-width: 550px;
+    }
 }
