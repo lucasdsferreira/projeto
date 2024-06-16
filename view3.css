@@ -21,7 +21,7 @@ body {
 header {
     background-color: white;
     font-family: var(--fonte-padrao);
-    min-height: 120px;
+    min-height: 90px;
     text-align: center;
     padding-top: 50px;
     min-width: 320px;
@@ -191,5 +191,9 @@ hr {
 
     .licenca_mensal {
         font-size: 1.9em;
+    }
+
+    header {
+        min-height: 120px;
     }
 }

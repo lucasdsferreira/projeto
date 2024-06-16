@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco Produtos</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="view.css">
+    <title>Eco Produtos - Eco Produtos</title>
 </head>
 <body>
-    <section id="estoque">
-        <div id="comport-table">
-            <table class="saida-dados container" style="table-layout: fixed; width: 100%;">
-                <th>ITEM</th>
-                <th>QUANTIDADE (UND)</th>
-                <th>PREÇO (R$)</th>
-                <th>DATA DE VALIDADE</th>
-                <th>REMOVER</th>
-                <tbody id="resultados"></tbody>
-            </table>
-        </div>
-    </section>
+    <main>
+        <header>
+            <div class="titulo">
+                <img src="imagens/logo-ofc.png" alt="Logo" height="80px">
+                <a href="index.html" rel="next">ECO PRODUTOS</a>
+            </div>
+        </header>
+        <section id="estoque">
+            <div id="comport-table">
+                <table class="saida-dados container" style="table-layout: fixed; width: 100%;">
+                    <th>ITEM</th>
+                    <th>QUANTIDADE (UND)</th>
+                    <th>PREÇO (R$)</th>
+                    <th>DATA DE VALIDADE</th>
+                    <th>REMOVER</th>
+                    <tbody id="resultados"></tbody>
+                </table>
+            </div>
+        </section>
+        <script src="src/main.js"></script>
+    </main>
 </body>
 </html>
