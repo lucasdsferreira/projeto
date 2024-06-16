@@ -32,7 +32,6 @@ header {
 div > h1 {
     color: black;
     font-family: var(--fonte-padrao);
-    font-size: 3em;
     font-weight: bolder;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
@@ -40,15 +39,12 @@ div > h1 {
     text-decoration: none;
 }
 
-div > img {
-    margin: auto;
-}
-
 .container {
     display: flex;
     align-items: center;
     text-align: center;
     margin: auto;
+    max-width: 450px;
 }
 
 section > p {
@@ -168,11 +164,17 @@ nav > a:hover {
         margin: auto;
     }
 
-    h1 {
-        width: 420px;
-    }
-
     main {
         max-width: 550px;
+    }
+
+    header {
+        min-height: 70px;
+    }
+
+    img {
+        height: 60px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 }

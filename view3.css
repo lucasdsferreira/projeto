@@ -23,7 +23,7 @@ header {
     font-family: var(--fonte-padrao);
     min-height: 90px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     min-width: 320px;
     max-width: 450px;
     margin: auto;
@@ -32,16 +32,10 @@ header {
 div > a {
     color: black;
     font-family: var(--fonte-padrao);
-    font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     margin: auto;
     text-decoration: none;
-}
-
-div > img {
-    margin: auto;
 }
 
 .cabecalho {
@@ -194,6 +188,10 @@ hr {
     }
 
     header {
-        min-height: 120px;
+        min-height: 70px;
+    }
+
+    img {
+        height: 60px;
     }
 }

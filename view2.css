@@ -32,16 +32,10 @@ header {
 div > a {
     color: black;
     font-family: var(--fonte-padrao);
-    font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     margin: auto;
     text-decoration: none;
-}
-
-div > img {
-    margin: auto;
 }
 
 .container {
@@ -124,5 +118,13 @@ ul {
     .conteudo {
         width: 200px;
         text-align: unset;
+    }
+
+    header {
+        min-height: 70px;
+    }
+
+    img {
+        height: 60px;
     }
 }

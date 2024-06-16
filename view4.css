@@ -71,4 +71,12 @@ hr {
         width: 250px;
         margin-bottom: 40px;
     }
+
+    header {
+        min-height: 70px;
+    }
+
+    img {
+        height: 60px;
+    }
 }

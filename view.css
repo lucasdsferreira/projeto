@@ -38,9 +38,7 @@ header {
 a {
     color: black;
     font-family: var(--fonte-padrao);
-    font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     margin: auto;
     text-decoration: none;
@@ -156,7 +154,7 @@ p {
 /* LAYOUT */
 .container {
     max-width: 600px;
-    margin: 70px auto;
+    margin: 30px auto;
 }
 
 /* MEDIA QUERIES */
@@ -179,5 +177,9 @@ p {
 
     #val {
         padding: 0px 5px;
+    }
+
+    img {
+        height: 60px;
     }
 }
