@@ -34,7 +34,7 @@ div > a {
     font-family: var(--fonte-padrao);
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     margin: auto;
     text-decoration: none;
@@ -56,9 +56,9 @@ section {
     background-color: #43c88d;
     border-radius: 2px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
-    padding: 2px;
-    margin-left: 250px;
-    margin-right: 250px;
+    padding: 10px;
+    margin: auto;
+    max-width: 1032px;
 }
 
 section > h2 {
@@ -101,4 +101,28 @@ ul {
     margin-top: 5px;
     margin-bottom: 5px;
     text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.268);
+}
+
+@media screen and (max-width: 1080px) {
+    .sobre {
+        width: 250px;
+        padding: 20px;
+        font-size: 1em;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .funcionalidade {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .conteudo {
+        width: 200px;
+        text-align: unset;
+    }
 }
