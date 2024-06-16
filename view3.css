@@ -21,7 +21,7 @@ body {
 header {
     background-color: white;
     font-family: var(--fonte-padrao);
-    min-height: 90px;
+    min-height: 120px;
     text-align: center;
     padding-top: 50px;
     min-width: 320px;
@@ -49,6 +49,7 @@ div > img {
     align-items: center;
     text-align: center;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .mensal {
@@ -162,5 +163,28 @@ hr {
 .container {
     display: flex;
     align-items: center;
-    margin-left: 390px;
+    margin: auto;
+    max-width: 850px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 450px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin: auto;
+        flex-direction: column;
+    }
+    .botoes {
+        font-size: 1.5em;
+    }
+
+    hr {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .anual {
+        margin-bottom: 60px;
+    }
 }
