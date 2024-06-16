@@ -99,6 +99,7 @@ nav > .anual:hover {
     padding: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
+    max-width: 250px;
 }
 
 .preco_mensal {
@@ -176,7 +177,7 @@ hr {
         flex-direction: column;
     }
     .botoes {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     hr {
@@ -186,5 +187,9 @@ hr {
 
     .anual {
         margin-bottom: 60px;
+    }
+
+    .licenca_mensal {
+        font-size: 1.9em;
     }
 }
