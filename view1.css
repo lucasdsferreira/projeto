@@ -47,6 +47,11 @@ div > h1 {
     max-width: 450px;
 }
 
+.perfil {
+    display: block;
+    margin-left: 400px;
+}
+
 section > p {
     text-align: center;
     font-family: var(--fonte-padrao);

@@ -1,70 +1,196 @@
 @charset "UTF 8";
 
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    font-family: var(--fonte-padrao);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+:root {
+    --fonte-padrao: "Poppins", sans-serif;
 }
 
 body {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    min-width: 320px;
+    max-width: 450px;
+    margin: auto;
+}
+
+div > h1 {
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+    margin: auto;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 450px;
+}
+
+section {
     display: flex;
     max-width: 1100px;
     justify-content: space-around;
     padding: 0 2%;
     flex-wrap: wrap;
-    margin: 50px auto;
-    background-color: #43c88d;
+    margin: -15px auto;
 }
 
-form {
-    width: 100%;
-    height: 40px;
-    border: 0;
-    cursor: pointer;
+.form-pagamento {
+    box-shadow: 2px 5px 15px 5px #C7C7C7;
+    padding: 30px 30px 50px 30px;
+    width: 50%;
     background-color: #43c88d;
-    color: rgb(255, 255, 255);
-    font-size: 1em;
     border-radius: 10px;
+}
+
+.form-pagamento form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-pagamento label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-pagamento input {
+    width: 95%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+#recover-password-button {
+    width: 30%;
+    border: 0;
+    background-color: #43c88d;
+    cursor: pointer;
+    color: black;
+    font-size: 0.90em;
+    font-weight: bolder;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
-input {
-    border: none;
-}
-
-input, button {
-    padding: 10px;
-    margin-bottom: 10px;
-    width: -webkit-fill-available;
-}
-
-button {
+#login-button {
+    width: 98%;
+    border: 0.5px solid black;
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     cursor: pointer;
+    color: black;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.outline {
+    width: 98%;
+    border: 0.5px solid black;
+    background-color: #43c88d;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
+    cursor: pointer;
+    color: black;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 button:active {
     opacity: 0.8;
 }
-
 button[disabled] {
     opacity: 0.7;
 }
 
-.clear {
-    background: transparent;
-    border: none;
-    color: white;
+.form-100 {
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-.solid {
-    background: white;
-    border: none;
-    color: rgb(45, 211, 111);
+.login {
+    font-size: 2em;
+    margin-left: 225px;
+    margin-right: 225px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-.outline {
-    background: transparent;
-    color: white;
-    border: 1px solid white;
+.registrar {
+    font-size: 2em;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        min-height: 100px;
+    }
+
+    img {
+        height: 60px;
+    }
+
+    .form-pagamento input {
+        width: 92%;
+    }
+
+    #recover-password-button {
+        width: 100%;
+    }
+
+    .form-pagamento {
+        width: 70%;
+    }
+
+    .login {
+        font-size: 2em;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .registrar {
+        font-size: 2em;
+        margin-left: 55px;
+        margin-right: 55px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }

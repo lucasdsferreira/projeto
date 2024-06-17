@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
-    <title>Login - Eco Produtos</title>
+    <title>Registrar - Eco Produtos</title>
 </head>
 <body>
     <main>
@@ -17,8 +17,8 @@
         <section>
             <div class="form-pagamento">
                 <form method="post">
-                    <div class="login">
-                        <label>Login</label>
+                    <div class="registrar">
+                        <label>Registrar</label>
                     </div>
                     <div class="form-100">
                         <label>Email</label>
@@ -29,13 +29,10 @@
                         <input type="password" name="password" id="password" placeholder="Senha" oninput="validateFields()">
                     </div>
                     <div class="form-100">
-                        <button type="button" class="clear" id="recover-password-button" disabled="true">Esqueceu sua senha?</button>
+                        <button type="button" class="clear" id="recover-password-button" disabled="true" hidden>Esqueceu sua senha?</button>
                     </div>
                     <div class="form-100">
-                        <a href="ecoprodutos.html"><button type="button" class="solid" id="login-button" disabled="true">Entrar</button></a>
-                    </div>
-                    <div class="form-100">
-                        <a href="registrar.html"><button type="button" class="outline">Registrar</button></a>
+                        <a href="ecoprodutos.html"><button type="button" id="login-button" disabled="true">Entrar</button></a>
                     </div>
                 </form>
             </div>
