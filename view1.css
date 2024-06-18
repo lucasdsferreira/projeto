@@ -52,6 +52,12 @@ div > h1 {
     margin-left: 400px;
 }
 
+.perfill {
+    display: block;
+    margin: auto;
+    visibility: hidden;
+}
+
 section > p {
     text-align: center;
     font-family: var(--fonte-padrao);
@@ -184,7 +190,13 @@ nav > a:hover {
     }
 
     .perfil {
-        height: 45px;
-        margin-left: -50px;
+        height: 30px;
+        margin-left: -60px;
+        visibility: hidden;
+    }
+
+    .perfill {
+        visibility: visible;
+        height: 50px;
     }
 }
