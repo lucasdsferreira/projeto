@@ -182,4 +182,9 @@ nav > a:hover {
         margin-left: 70px;
         margin-right: 70px;
     }
+
+    .perfil {
+        height: 45px;
+        margin-left: -50px;
+    }
 }
