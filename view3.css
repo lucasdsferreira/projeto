@@ -44,12 +44,13 @@ div > a {
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
+    margin-right: 70px;
 }
 
 .mensal {
     text-align: center;
     text-decoration: none;
-    background-color: #43c88d;
+    background-color: #09C2DE;
     padding: 30px;
     padding-bottom: 70px;
     border-radius: 10px;
@@ -62,7 +63,7 @@ div > a {
 .anual {
     text-align: center;
     text-decoration: none;
-    background-color: #43c88d;
+    background-color: #09C2DE;
     padding-top: 30px;
     padding-bottom: 70px;
     padding-left: 32px;
@@ -75,12 +76,12 @@ div > a {
 }
 
 nav > .mensal:hover {
-    background-color: #5bffb5;
+    background-color: #87efff;
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.268);
 }
 
 nav > .anual:hover {
-    background-color: #5bffb5;
+    background-color: #87efff;
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.268);
 }
 
@@ -189,9 +190,10 @@ hr {
 
     header {
         min-height: 70px;
+        margin-left: 80px;
     }
 
     img {
-        height: 60px;
+        height: 80px;
     }
 }

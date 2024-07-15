@@ -67,7 +67,7 @@ p {
 
 .entrada-dados {
     display: block;
-    background-color: #43c88d;
+    background-color: #09C2DE;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
     margin: 15px 15px 2px 15px;
@@ -132,7 +132,7 @@ p {
 
 .saida-dados {
     text-align: center;
-    background-color: #43c88d;
+    background-color: #09C2DE;
     font-size: 12px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);

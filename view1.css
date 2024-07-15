@@ -45,11 +45,12 @@ div > h1 {
     text-align: center;
     margin: auto;
     max-width: 450px;
+    margin-left: 150px;
 }
 
 .perfil {
     display: block;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 .perfill {
@@ -75,7 +76,7 @@ section > p {
 
 nav {
     text-align: center;
-    background-color: #43c88d;
+    background-color: #09C2DE;
     padding: 11px 0px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
@@ -129,7 +130,7 @@ nav {
 }
 
 nav > a:hover {
-    background-color: #5bffb5;
+    background-color: #87efff;
 }
 
 @media screen and (max-width: 768px) {
@@ -184,9 +185,9 @@ nav > a:hover {
     }
 
     img {
-        height: 60px;
-        margin-left: 70px;
-        margin-right: 70px;
+        height: 80px;
+        margin-left: 20px;
+        margin-right: 80px;
     }
 
     .perfil {
